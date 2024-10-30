@@ -1,0 +1,183 @@
+/* font */
+@import url( 'https://fonts.googleapis.com/css?family=Poppins&display=swap' );
+
+/* button */
+.about-us-button,
+.about-us-button:active,
+.about-us-button:focus {
+    text-decoration: none;
+    float: right;
+    right: 0;
+    line-height: 25px;
+    height: 26px;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    background: #e65252;
+    color: #ffffff;
+    border: 1px solid #e65252;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 3px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px 0px #f7afaf;
+    outline: none;
+}
+.about-us-button:hover {
+    box-shadow: 0px 0px 10px 0px #e65252;
+    color: #ffffff;
+}
+
+/* modal */
+.ui-dialog-about-us #about-us-modal {
+    padding: 0px;
+}
+.ui-dialog-about-us .ui-dialog-titlebar {
+    border-bottom: none;
+    background: #FFFFFF;
+}
+.ui-dialog-about-us .about-promo-container {
+    overflow: hidden;
+    height: 100%;
+}
+.ui-dialog-about-us .image-about-us {
+    background-image: url( 'about-image.png' );
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 90%;
+    margin: 0 5%;
+}
+.ui-dialog-about-us .jumbo-header .container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 5px 0 22px;
+}
+.ui-dialog-about-us .jumbo-header .subtitle {
+    line-height: 1.7;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin: 15px 0px 25px;
+    display: block;
+}
+.ui-dialog-about-us .jumbo-header {
+    text-align: center;
+}
+
+/* button */
+.ui-dialog-about-us .about-cta-container {
+    display: block;
+    margin-bottom: 40px;
+}
+.ui-dialog-about-us .about-cta-btn {
+    font-family: 'Poppins', sans-serif;    
+    font-size: 16px!important;
+    box-shadow: 0 0 20px rgba( 0, 0, 0, 0.15 ) !important;
+    outline: none !important;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;    
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* button blue */
+.ui-dialog-about-us .about-cta-btn.btn-blue {
+    background: #0089FF;
+    border: 1px solid #0089FF;
+    color: #FFFFFF;
+}
+.ui-dialog-about-us .about-cta-btn.btn-blue:hover {
+    background: #FFFFFF;
+    color: #0089FF;
+}
+
+/* button red */
+.ui-dialog-about-us .about-cta-btn.btn-red {
+    border: 1px solid #e65252;
+    background: #e65252;
+    color: #ffffff;
+}
+.ui-dialog-about-us .about-cta-btn.btn-red:hover {
+    background: #e65252;
+    color: #e65252;
+    background: #ffffff;
+}
+
+/* button white */
+.ui-dialog-about-us .about-cta-btn.btn-white {    
+    border: 1px solid #0089FF;    
+    background: #FFFFFF;
+    color: #0089FF;
+}
+.ui-dialog-about-us .about-cta-btn.btn-white:hover {
+    background: #0089FF;
+    color: #FFFFFF;
+}
+
+/* harisrozak-free-plugins-modal */
+.ui-dialog-harisrozak-free-plugins #harisrozak-free-plugins-modal {
+    padding: 7px;
+}
+.ui-dialog-harisrozak-free-plugins .ui-dialog-titlebar {
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+}
+.ui-dialog-harisrozak-free-plugins .about-back-button {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 36px;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: none !important;
+}
+.ui-dialog-harisrozak-free-plugins .about-back-button > span {
+    font-size: 17px;
+    display: inline-block;
+    padding-right: 5px;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list {
+    width: 100%;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list > .plugin-item {
+    width: 25%;
+    display: inline-block;
+    padding: 7px;
+    box-sizing: border-box;
+    float: left;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list > .plugin-item > a {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    box-shadow: none !important;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list > .plugin-item > a:hover {
+    box-shadow: 0 0 20px rgba( 0, 0, 0, 0.15 ) !important;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list > .plugin-item > a img {
+    max-width: 100%;
+}
+.ui-dialog-harisrozak-free-plugins .plugin-list > .plugin-item > a span {
+    display: block;
+    font-size: 14px;
+    padding: 8px 0 0px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 1px solid #dee2e6;
+    margin: 3px -6px;
+}

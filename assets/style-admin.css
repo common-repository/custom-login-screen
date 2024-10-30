@@ -1,0 +1,185 @@
+#feslider-image-container {
+    margin: 0 -5px -5px -5px;
+    font-size: 0;
+}
+
+#feslider-image-container input[type="hiddden"] {
+    display: none;
+}
+
+#feslider-image-container .feslider-image-item,
+#feslider-image-container .feslider-sortable-placeholder {
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid #cccccc;
+    margin: 5px;
+    line-height: 0;
+    background: #f5f5f5;
+    position: relative;
+    vertical-align: top;
+}
+
+#feslider-image-container .feslider-sortable-placeholder {
+    width: 150px;
+    height: 150px;
+    background: none;
+    padding: 5px;
+    border: 3px dashed #dcdcdc;
+}
+
+#feslider-image-container .feslider-image-item .feslider-close-item {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ff5757;
+    background: #FFF;
+    font-weight: bold;
+    box-shadow: none;
+    height: 25px;
+    width: 25px;
+    line-height: 16px;
+    padding: 2px;
+    opacity: 0.75;
+    display: none;
+}
+
+#feslider-image-container .feslider-image-item .feslider-close-item:focus {
+    box-shadow: none;
+}
+
+#feslider-image-container .feslider-image-item:hover .feslider-close-item {
+    display: block;
+}
+
+#feslider-image-container .feslider-image-item:hover .feslider-close-item:hover {
+    opacity: 1;
+}
+
+#feslider-image-container span {
+    padding: 5px 0 5px 5px;
+    display: block;
+    font-size: 14px;
+    color: #606060;
+}
+
+#feslider-button-container {
+    margin-top: 12px;
+}
+
+#feslider-button-container a {
+    margin: 0 5px 10px 0;
+}
+
+#feslider-button-container a .dashicons {
+    padding: 4px 3px 0 0;
+}
+
+/* Settings Page */
+
+#feslider-settings {
+    max-width: 800px;
+    margin: 25px 20px 0 2px;
+}
+
+#feslider-settings .hndle {
+    font-size: 21px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    font-weight: 600;
+    cursor: default;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#feslider-settings .hndle .sub {
+    font-size: 16px;
+    color: #9f9f9f;
+}
+
+#feslider-settings .postbox {
+    margin-top: 0px;
+}
+
+#feslider-settings .postbox .inside {
+    margin: 12px 0;
+    padding: 0;
+}
+
+#feslider-settings .postbox input[type="submit"] {
+    margin: 0px 12px 0;
+}
+
+#feslider-settings .postbox .field-group {
+    margin-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    padding: 0 12px 15px;
+}
+
+#feslider-settings .postbox .field-group:last-child {
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+
+#feslider-settings .postbox .field-section-title {
+    padding: 0 12px;
+    background: #f3f3f3;
+    margin-top: -12px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#feslider-settings .postbox .field-group > label {
+    display: block;
+    font-weight: 600;
+    padding: 0 0 7px;
+    font-size: 14px;
+    cursor: default;
+}
+
+#feslider-settings .postbox .field-group > span {
+    color: #333;
+    font-size: 12px;
+    display: block;
+    margin: 7px 0 0;
+}
+
+#feslider-settings .postbox .field-group > span > code {
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+#feslider-settings .postbox .field-group > input,
+#feslider-settings .postbox .field-group > select,
+#feslider-settings .postbox .field-group > textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+/* support-5-stars */
+.support-5-stars {
+    box-shadow: none !important;
+    text-decoration: none;
+    font-size: 13px;
+}
+.support-5-stars .stars {
+    display: inline-block;
+    margin-left: 5px;
+}
+.support-5-stars .stars span {
+    font-size: 16px;
+    width: 14px;
+    line-height: 20px;
+}

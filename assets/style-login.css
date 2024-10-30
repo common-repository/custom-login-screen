@@ -1,0 +1,199 @@
+body {
+	background: #EAEFEF;
+}
+
+body:before {
+	content: 'Your WordPress Title';
+    text-align: center;
+    display: block;
+    width: 100%;
+    background: #fff;
+    line-height: 2;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 10px;
+    border-bottom: 1px solid #d4d4d4;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    box-sizing: border-box;
+}
+
+#login {
+	width: 100%;
+	padding: 5% 0 5% 50%;
+	box-sizing: border-box;
+	margin-right: 0;
+	background-image: url('logo.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50%;
+}
+
+#login:after {
+	content: '';
+	width: 300px;
+	height: 300px;
+	background: red;
+	left: 0;
+}
+
+#login > h1 {
+	text-align: left;
+	margin: 0 50px;
+	margin-bottom: 0px;
+}
+
+#login > h1 > a {
+	display: none;
+	text-align: left;
+}
+
+#login > h1:before {
+	content: "login form";
+	text-transform: uppercase;
+	text-align: left;
+}
+
+body.login-action-register #login {
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+
+body.login-action-register #login > h1:before {
+	content: "register form";
+} 
+
+body.login-action-lostpassword #login > h1:before {
+	content: "recover your password";
+} 
+
+#login > h1:after {
+	content: '';
+	height: 4px;
+	width: 80px;
+	background: #0073aa;
+	display: block;
+	margin-top: 20px;
+}
+
+#login > p.message,
+#login > div#login_error {
+	margin: 0 50px !important;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+}
+
+#login > p#nav {
+	margin: 0 50px !important;
+	padding: 0 !important;
+}
+
+#login > p#backtoblog {
+	display: none;
+}
+
+#login > form#loginform,
+#login > form#registerform,
+#login > form#lostpasswordform {
+	box-shadow: none;
+    background: none;
+    padding: 10px 50px;
+    margin-top: 0px;
+    border: none;
+}
+
+#login > form#loginform:before {
+	content: "This text section should be a welcome message to site members. You can edit this text on admin plugin settings page";
+	display: block;
+	margin: 10px 0;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #72777c;
+}
+
+#login > form#loginform > p > label[for='user_login'],
+#login > form#loginform > p > label[for='user_pass'],
+#login > form#loginform > .user-pass-wrap > label[for='user_pass'] {
+	font-size: 16px;
+	font-weight: 400;
+	color: #4b4b4c;
+}
+
+#login > form#loginform > p.forgetmenot {
+	display: block;
+	float: none;
+}
+
+input[type='text'],
+input[type='email'], 
+input[type='password'], 
+select {
+	font-size: 16px !important;
+    width: 100%;
+    padding: 9px 12px !important;
+    margin: 2px 6px 16px 0 !important;
+}
+
+select {
+	padding: 9px 8px !important;
+}
+
+input[type='submit'] {
+	float: none !important;
+	display: block !important;
+	width: 100%;
+	margin-top: 20px !important;
+	font-size: 16px !important;
+	line-height: 50px !important;
+	height: 50px !important;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+#login > form#registerform input[type='submit'] {
+	margin-top: 0px !important;
+}
+
+#login > form#lostpasswordform input[type='submit'] {
+	margin-top: 10px !important;	
+}
+
+/* start from tablet size */
+@media only screen and (max-width: 1024px) {
+	#login {
+		width: 100%;
+		padding: 5% 0 0;
+		background-image: none !important;
+	}
+}
+
+/* all phone size */
+@media only screen and (max-width: 415px) {
+	body:before {
+		content: 'SOLID';
+	}
+}
+
+/* with email confirmation */
+body.login-action-confirm_admin_email #login {
+	width: 100%;
+	padding: 5% 0 0;
+	background-image: none !important;
+}
+body.login-action-confirm_admin_email #login .admin-email-confirm-form {
+	margin: 30px 50px 0;
+}
+body.login-action-confirm_admin_email #login input[type='submit'] {
+	float: left !important;
+	display: inline !important;
+	width: auto;
+	margin-top: 0px !important;
+	font-size: inherit !important;
+	line-height: 1.4 !important;
+	height: auto !important;
+	text-transform: inherit;
+	letter-spacing: 0;
+	word-spacing: 0;
+	margin-left: 0;
+}

@@ -1,0 +1,118 @@
+/*Theme Clean Green*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+			
+body {
+	background-color: #fff;
+	font-family: poppins;	
+	-webkit-font-smoothing: antialiased;
+}
+
+body:before {
+	border-bottom: 0px;
+	color: #333333;
+}
+
+#login > h1 {
+	color: #222222;
+	letter-spacing: .5px;
+	font-weight: 600;
+}
+
+#login > h1:before {
+	text-transform: capitalize;
+	text-align: left;
+	font-weight: 700;
+}
+
+#login > h1:after {
+	background: #57b846;
+}
+
+#login > form#loginform:before{
+	color: #999999;
+	font-weight: 400;
+	font-size: 14px;  
+	line-height: 1.5em;
+	margin: 15px 0px;
+}
+
+#login > form#loginform > p > label[for='user_login'], #login > form#loginform > p > label[for='user_pass'], #login > form#loginform > .user-pass-wrap > label[for='user_pass']{
+	color: #333333;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text]{
+	border-radius: 50px;
+	border-width: 0px;
+	box-shadow: none;
+	background: #e6e6e6;		
+}
+
+.login form .input, .login input[type=text]{
+	padding: 9px 16px!important;
+}
+
+.login form .input:focus, .login form input[type=checkbox]:focus, .login input[type=text]:focus{
+	box-shadow: 0 0 12px rgba(0,0,0,0.10);
+}
+
+.wp-core-ui .button-primary{
+	background: #57b846;
+	border-color: #222222;
+	text-shadow: none;
+	transition: .2s;
+	box-shadow: 0 0 12px rgba(0,0,0,0.15);
+	border-width: 0px;
+	border-radius: 50px;
+	font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.wp-core-ui .button-primary:hover{
+	background: #333333;
+}
+
+.login form .forgetmenot label{
+	color: #57b846;
+}
+
+.login #backtoblog a, .login #nav a{
+	color: #57b846;
+}
+
+.login label{
+	color: #333333;
+	line-height: 2em;
+}
+
+.login #login_error, .login .message, .login .success{
+	border-radius: 3px;
+	background: #2222221c;
+	color: #232323;
+	border-width: 0px;
+	box-shadow: none;
+}
+
+.login #login_error{
+	border-left: 4px solid #ff2d2d;
+}
+
+.login .success{
+	border-left: 4px solid #ff2d2d;
+}
+
+.login .message{
+	border-left: 4px solid #ffc733;
+}
+
+input[type=checkbox]:checked:before{
+	margin: -5px 0 0 -4px;
+	font: normal 24px/1 dashicons;
+	color: #57b846;
+}
+			
+.login #nav a:hover{
+	color: #333333;
+}
